@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    padding: 1.5rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.header__title{
+    display: flex;
+    justify-content: center;
+}
+
+.post{
+    width: 400px;
+    margin: 2rem;
+    background-color: white;
+}
+
+.post__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+hr{
+    border: 0.2px solid rgb(194, 194, 194);
+}
+
+.post__description{
+    margin: 1rem;
+}
